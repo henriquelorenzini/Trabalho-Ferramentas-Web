@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<script>
+var numero = Number (prompt("Digite um número"));
+var resto = numero % 5;
+if (resto == 0) {
+	alert("Seu número é divisivel por 5");
+}
+if (resto != 0) {
+	alert("Seu número não é divisivel por 5");
+}
+</script>
+</body>
+</html>
