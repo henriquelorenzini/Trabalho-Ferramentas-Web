@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<script>
+var salFix = Number (prompt("Qual o salario fixo do funcionário"));
+var totalVen = Number (prompt("Qual o total vendido pelo funcionário"));
+var comissao = 0.05 * totalVen;
+var salFinal = salFix + comissao;
+alert("O salário final do funcionário é de " + salFinal);
+</script>
+</body>
+</html>
