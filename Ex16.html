@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<script>
+var lado1 = Number (prompt("Digite o valor do primeiro lado"));
+var lado2 = Number (prompt("Digite o valor do segundo lado"));
+var lado3 = Number (prompt("Digite o valor do terceiro lado"));
+if (lado1 == lado2 && lado2 == lado3) {
+	alert("Triângulo Equilátero");
+} else
+if (lado1 == lado2 && lado2 != lado3) {
+	alert("Triângulo Isosceles");
+} else
+if (lado1 != lado2 && lado2 == lado3) {
+	alert("Triângulo Isosceles");
+} else
+if (lado1 == lado3 && lado2 != lado3) {
+	alert("Triângulo Isosceles");
+} else {
+	alert("Triângulo Escaleno");
+}
+</script>
+</body>
+</html>
