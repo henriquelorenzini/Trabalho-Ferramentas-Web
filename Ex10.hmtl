@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<script>
+var salMenAtu = Number (prompt("Digite o salário mensal atual"));
+var percentualR = Number (prompt ("Digite o percentual de reajuste"));
+var percentual = 1 + (percentualR / 100);
+var salReajuste = salMenAtu * percentual;
+alert("O salário com reajuste é " + salReajuste);
+</script>
+</body>
+</html>
